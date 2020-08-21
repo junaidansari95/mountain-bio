@@ -1,0 +1,340 @@
+input:focus, select:focus, textarea:focus, button:focus {
+    outline: none;
+}
+
+.landing-first-cover {
+    background: url('../Assets/images/a.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 99.9vh;
+}
+
+.landing-intro>h1 {
+    color: black;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 40px;
+}
+
+.landing-intro {
+    padding: 24px;
+    padding-top: 190px;
+}
+
+.landing-desc {
+    max-width: 600px;
+    margin: auto;
+    padding: 24px;
+}
+
+.landing-desc>h3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+.doshas {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 18px;
+}
+
+.doshas-text>h1 {
+    color: #2f2f2f;
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+.doshas-text>p {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+
+.doshas>.vatta-img {
+    width: 180px;
+    height: auto;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.doshas>.evrday-img {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 12px;
+}
+
+.men {
+    display: flex;
+    flex-direction: column;
+    padding: 18px;
+}
+
+.men-text>h1 {
+    color: #2f2f2f;
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+.men-text>p {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+
+.men>.men-img {
+    width: 180px;
+    height: auto;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.women {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 18px;
+}
+
+.women-text>h1 {
+    color: #2f2f2f;
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+.women-text>p {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+
+.women>.women-img {
+    width: 180px;
+    height: auto;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.evrday {
+    display: flex;
+    flex-direction: column;
+    padding: 18px;
+}
+
+.evrday-text>h1 {
+    color: #2f2f2f;
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+.evrday-text>p {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+
+.evrday>.evrday-img {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.newsletter {
+    margin: auto;
+    background: #48404f;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+}
+
+.newsletter>img {
+    width: 70px;
+    margin: auto;
+}
+
+.email {
+    margin: auto;
+}
+
+.newsletter>.email>input {
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    font-size: 15px;
+    padding: 17px 50px 17px 15px;
+}
+
+::placeholder {
+    color: white;
+    letter-spacing: 2px;
+}
+
+.newsletter>.email>button {
+    background: white;
+    border: none;
+    color: #48404f;
+    font-size: 15px;
+    padding: 18px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+}
+
+.icons>img {
+    height: 48px;
+    width: auto;
+    margin: 10px;
+    background: transparent;
+}
+
+.newsletter-text {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    letter-spacing: 2px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 18px;
+}
+@media (min-width: 1024px) {
+    .landing-first-cover {
+        background: url('../Assets/images/a.jpg') no-repeat center center fixed;
+        background-size: cover;
+    }
+    .landing-intro {
+        padding: 24px;
+        padding-top: 190px;
+    }
+    .landing-intro>h1 {
+        color: #2f2f2f;
+        font-size: 55px;
+    }
+    .landing-desc {
+        max-width: 600px;
+        margin: auto;
+    }
+    .landing-desc>h3 {
+        margin-top: -70px;
+        font-size: 28px;
+    }
+    .doshas {
+        display: flex;
+        flex-direction: row;
+        padding: 150px;
+    }
+    .doshas-text {
+        width: 61%;
+        padding-left: 12px;
+    }
+    .doshas-text>h1 {
+        color: #2f2f2f;
+        font-family: 'Libre Baskerville', serif;
+        text-align: left;
+        font-size: 32px;
+        font-weight: lighter;
+        margin-top: 30px;
+    }
+    .doshas-text>p {
+        font-family: 'Lato', sans-serif;
+        font-size: 18px;
+    }
+    .doshas>.evrday-img {
+        width: 540px;
+        height: auto;
+        margin: auto;
+        margin-top: 40px;
+    }
+    .doshas>.vatta-img {
+        width: 275px;
+        height: auto;
+        margin: auto;
+        margin-top: 40px;
+    }
+    .men {
+        display: flex;
+        flex-direction: row;
+        padding: 150px;
+    }
+    .men-text {
+        width: 61%;
+        padding-left: 12px;
+    }
+    .men-text>h1 {
+        color: #2f2f2f;
+        font-family: 'Libre Baskerville', serif;
+        text-align: left;
+        font-size: 32px;
+        font-weight: lighter;
+        margin-top: 30px;
+    }
+    .men-text>p {
+        font-family: 'Lato', sans-serif;
+        font-size: 18px;
+    }
+    .men>.men-img {
+        width: 480px;
+        height: auto;
+        margin: auto;
+    }
+    .women {
+        display: flex;
+        flex-direction: row;
+        padding: 150px;
+    }
+    .women-text {
+        width: 61%;
+        padding-left: 12px;
+    }
+    .women-text>h1 {
+        color: #2f2f2f;
+        font-family: 'Libre Baskerville', serif;
+        text-align: left;
+        font-size: 32px;
+        font-weight: lighter;
+        margin-top: 30px;
+    }
+    .women-text>p {
+        font-family: 'Lato', sans-serif;
+        font-size: 18px;
+    }
+    .women>.women-img {
+        width: 480px;
+        height: auto;
+        margin: auto;
+    }
+    .evrday {
+        display: flex;
+        flex-direction: row;
+        padding: 150px;
+    }
+    .evrday-text {
+        width: 61%;
+        padding-left: 12px;
+    }
+    .evrday-text>h1 {
+        color: #2f2f2f;
+        font-family: 'Libre Baskerville', serif;
+        text-align: left;
+        font-size: 32px;
+        font-weight: lighter;
+        margin-top: 30px;
+    }
+    .evrday-text>p {
+        font-family: 'Lato', sans-serif;
+        font-size: 18px;
+    }
+    .evrday>.evrday-img {
+        width: 480px;
+        height: auto;
+        margin: auto;
+    }
+}
